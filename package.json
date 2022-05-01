@@ -1,18 +1,16 @@
 {
-  "name": "electron-quick-start",
+  "name": "pokedex-dos-guri",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "Trabalho final da Cadeira de CPD",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/RyuzakiZ99/Pokedex_dos_Guri_CPD",
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+    "Pokemon",
+    "CPD",
+    "UFRGS"
   ],
   "author": "GitHub",
   "license": "CC0-1.0",
