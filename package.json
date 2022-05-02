@@ -2,7 +2,7 @@
   "name": "pokedex-dos-guri",
   "version": "1.0.0",
   "description": "Trabalho final da Cadeira de CPD",
-  "main": "main.js",
+  "main": "src/main.js",
   "scripts": {
     "start": "electron ."
   },
