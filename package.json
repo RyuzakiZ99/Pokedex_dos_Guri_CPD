@@ -6,12 +6,14 @@
   "scripts": {
     "start": "electron ."
   },
-  
   "repository": "https://github.com/RyuzakiZ99/Pokedex_dos_Guri_CPD",
   "keywords": [
     "Pokemon",
     "CPD",
     "UFRGS"
+  ],
+  "asarUnpack": [
+    "src/data/pokemon.db"
   ],
   "author": "GitHub",
   "license": "CC0-1.0",
@@ -20,6 +22,8 @@
     "electron": "^18.2.0"
   },
   "dependencies": {
-    "node-fetch": "^2.6.6"
+    "electron-builder": "^23.0.3",
+    "node-fetch": "^2.6.6",
+    "sqlite3": "^5.0.8"
   }
 }
