@@ -1,3 +1,14 @@
+# Trabalho CPD
+
+## João Vitório Zanatta
+
+Para iniciar o projeto:
+
+- baixar package manager npm
+- abrir o diretório com o vscode
+- usar o comando `npm install` para instalar as dependências
+- usar o comando `npm start` para dar início à aplicação.
+
 # electron-quick-start
 
 **Clone and run for a quick way to see Electron in action.**
