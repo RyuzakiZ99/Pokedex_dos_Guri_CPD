@@ -12,9 +12,6 @@
     "CPD",
     "UFRGS"
   ],
-  "asarUnpack": [
-    "src/data/pokemon.db"
-  ],
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {

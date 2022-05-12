@@ -4,12 +4,98 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Pokedex dos Guri</title>
   </head>
   <body>
-    <h1>Pokedex Dos Guri</h1>
-    <button id="test" onclick="HelloWorld()">Teste</button>
-    <div id="list"></div>
+    <div class="title">
+      <h1>Pokedex Dos Guri</h1>
+    </div>
+
+    <div style="display:flex">
+
+      <div class="order">
+        <label>Como deseja ordenar os pokemons?</label>
+        <br />
+        <select name="order-select" id="options">
+          <option value="">Código</option>
+          <option value="">Número</option>
+          <option value="">Nome</option>
+          <option value="">Geração</option>
+          <option value="">Total de pontos</option>
+        </select>
+        <br />
+        <button>Ordenar!</button>
+      </div>
+  
+      <br />
+      <hr>
+      <br>
+  
+      <div class="select">
+        <div class="select1">
+          <label>Selecione o tipo primário</label>
+          <br>
+          <select name="type-options" id="type1">
+            <option value="Grass">Grama</option>
+            <option value="Fire">Fogo</option>
+            <option value="Water">Água</option>
+            <option value="Electric">Elétrico</option>
+            <option value="Rock">Pedra</option>
+            <option value="Ground">Terra</option>
+            <option value="Psychic">Psíquico</option>
+            <option value="Fairy">Fada</option>
+            <option value="Flying">Voador</option>
+            <option value="Dragon">Dragão</option>
+            <option value="Steel">Ferro</option>
+            <option value="Dark">Escuro</option>
+            <option value="Bug">Inseto</option>
+            <option value="Ghost">Fantasma</option>
+            <option value="Ice">Gelo</option>
+            <option value="Fighting">Lutador</option>
+            <option value="Normal">Normal</option>
+          </select>
+        </div>
+          <br />
+        <div class="select2">
+          <label>Selecione tipo secundário</label>
+          <br>
+          <select name="type-options" id="type2">
+            <option value="0">Apenas um tipo!</option>
+            <option value="Grass">Grama</option>
+            <option value="Fire">Fogo</option>
+            <option value="Water">Água</option>
+            <option value="Electric">Elétrico</option>
+            <option value="Rock">Pedra</option>
+            <option value="Ground">Terra</option>
+            <option value="Psychic">Psíquico</option>
+            <option value="Fairy">Fada</option>
+            <option value="Flying">Voador</option>
+            <option value="Dragon">Dragão</option>
+            <option value="Steel">Ferro</option>
+            <option value="Dark">Escuro</option>
+            <option value="Bug">Inseto</option>
+            <option value="Ghost">Fantasma</option>
+            <option value="Ice">Gelo</option>
+            <option value="Fighting">Lutador</option>
+            <option value="Normal">Normal</option>
+          </select>
+          <br>
+          <label>Selecione o nome do arquivo sem o sufixo.</label>
+          <input type="text" id="file-name" />
+          <br />
+          <button style="display:inline;" onclick="createNewDB()">Catalogar</button>
+  
+        </div>
+          <br />
+        </div>
+      </div>
+  
+      <br />
+  
+      <div id="list"></div>
+    </div>
+
   </body>
   <script src="./renderer.js"></script>
 </html>

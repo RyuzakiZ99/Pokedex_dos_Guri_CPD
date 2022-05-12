@@ -9,8 +9,8 @@ class Pokemon {
     typeNumber,
     type1,
     type2,
-    isVariant,
-    points
+    points,
+    isVariant
   ) {
     this.code = code
     this.name = name
@@ -55,8 +55,8 @@ class Pokemon {
       this.typeNumber,
       this.type1,
       this.type2,
-      this.isVariant,
-      this.points
+      this.points,
+      this.isVariant
     ]
   }
 
