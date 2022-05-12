@@ -44,6 +44,22 @@ class Pokemon {
     this.typeNumber = typeNumber
   }
 
+  getDataArray() {
+    return [
+      this.code,
+      this.number,
+      this.name,
+      this.gen,
+      this.isLegendary,
+      this.isMythical,
+      this.typeNumber,
+      this.type1,
+      this.type2,
+      this.isVariant,
+      this.points
+    ]
+  }
+
   getTypeDesctription() {
     let types
     if (this.typeNumber == 1) {
